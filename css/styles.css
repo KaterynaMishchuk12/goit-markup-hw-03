@@ -1,0 +1,159 @@
+body{
+    font-family: "Roboto", sans-serif;
+    color:var(--slate);
+    background-color: var(--white);
+}
+:root{
+    --navyblue: #2E2F42; 
+    --white: #FFF;
+    --iris: #4D5AE5;
+    --cloud: #F4F4FD;
+    --slate: #434455;
+    --ocean: #404bbf;
+    --font-family:"Roboto", sans-serif;
+}
+.address{font-style: normal;}
+
+.logo-link{
+color: var(--iris);
+font-family: "Raleway", sans-serif;
+font-size: 18px;
+font-weight: 800;
+line-height: 1.17;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+text-decoration: none;
+}
+.logo-accent{color: var(--navyblue,);
+    font-family: "Raleway", sans-serif;
+    font-size: 18px;    
+    font-weight: 800;
+    line-height: 1.16;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    text-decoration: none;}
+    link .logo-link{text-decoration: none;}
+.nav{
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.02em;}
+    
+    .list{list-style: none;}
+
+    .nav-link{
+    color: var(--navyblue);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    text-decoration:none;}
+    link .nav-link{list-style: none;}
+    .nav-link:hover,
+    .nav-link:focus{color: var(--ocean);}
+
+    .contact-link{color:var(--slate);
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        text-decoration: none;}
+    .contact-link:hover,
+    .contact-link:focus{color: var(--ocean);}
+
+    .section-one-title{color: var(--white);
+        background-color: var(--navyblue);
+        text-align:center;
+        font-size: 56px;
+        font-weight: 700;
+        line-height: 1.07;
+        letter-spacing: 0.02em;}
+    .section-one{background-color: var(--navyblue);}
+
+    .section-three-title{color: var(--navyblue);
+        text-align: center;
+        font-size: 36px;
+        font-weight: 700;
+        line-height: 1.11;
+        letter-spacing: 0.02em;
+        text-transform: capitalize;}
+
+    .section-four{background-color: var(--cloud);}
+    .section-four-title{color: var(--navyblue);
+        text-align: center;
+        font-size: 36px;
+        font-weight: 700;
+        line-height: 1.11;
+        letter-spacing: 0.02em;
+        text-transform: capitalize;}
+    .button{
+        color: var(--white);
+        font-family: inherit;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 1.5;
+        letter-spacing: 0.04em;
+        background-color:var(--iris);
+    cursor: pointer;}
+    .button:hover,
+    .button:focus{background-color:var(--ocean);}
+
+    .portfolio-button{color: var(--iris);
+        text-align: center;
+        font-family: inherit;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 1.5;
+        letter-spacing: 0.04em;
+        background-color: var(--cloud);
+        cursor: pointer;}
+    .portfolio-button:hover,
+    .portfolio-button:focus{background-color:var(--ocean);
+    color: var(--white);}
+    .portfolio-button:active{background-color: var(--ocean);
+        color: var(--white);}
+
+.list-title{color: var(--navyblue);
+font-size: 20px;
+font-weight: 500;
+line-height: 1.2;
+letter-spacing: 0.02em;}
+.list-text{
+color: var(--slate);
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+}
+.hero-list-item{background-color: var(--white);}
+.hero-name{color: var(--navyblue);
+    text-align: center;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing:0.02em;}
+
+ul{list-style-type: none;}
+.image-list{list-style: none;}
+
+.portfolio-list{list-style: none;}
+.portfolio-link{text-decoration: none;}
+.portfolio-list-title{color: var(--navyblue);
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.02em;}
+.portfolio-list-item{color: var(--navyblue);
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.20;
+    letter-spacing: 0.02em;}
+.portfolio-list-item-text{color: var(--slate);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.02em;}
+
+footer{background-color: var(--navyblue);}
+.footer .logo-accent{color: var(--cloud)}
+.footer-text{color: var(--cloud,);
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;}
