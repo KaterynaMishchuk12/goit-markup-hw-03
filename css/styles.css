@@ -10,23 +10,42 @@ body{
     --cloud: #F4F4FD;
     --slate: #434455;
     --ocean: #404bbf;
+    --cornflower: #E7E9FC;
     --font-family:"Roboto", sans-serif;
 }
 .address{font-style: normal;}
 
-h1, h2, h3, p{margin-top: 0;
+h1, h2, h3, p{
+margin-top: 0;
 margin-bottom: 0;}
-ul{margin-top: 0;
-    margin-bottom: 0;
+ul{
+margin-top: 0;
+margin-bottom: 0;
 padding-left: 0;}
+
 .container {
-    max-width: ;
-    padding-left: ;
-    padding-right:  ;
-    margin-left: ;
-    margin-right: ; 
+    width: 1158px;
+    padding: 0 15px;
+    margin: 0 auto;
     }
-img{display: block;}
+.image{display: block;}
+
+.visually-hidden{position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;}
+
+.header{border-bottom: 1px solid #e7e9fc;}
+
+.header .container{
+    display: flex;
+    justify-content: space-between;}
 
 .logo-link{
 color: var(--iris);
@@ -46,12 +65,33 @@ text-decoration: none;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     text-decoration: none;}
-    link .logo-link{text-decoration: none;}
+
+    link .logo-link{
+    text-decoration: none;
+    display: flex;
+    gap: 40px;
+    padding: 24px 0;
+    margin-right: 76px;}
+
 .nav{
     font-size: 16px;
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.02em;}
+   
+    .nav .list{display: flex;
+        gap: 40px;
+        padding: 24px 0;
+        margin-right:
+        align-items: flex-start;
+        margin-right: 332px;}
+
+    .address .list{
+        display: flex;
+        gap: 40px;
+        padding: 24px 0;
+        margin-right: 156px;
+        align-items: flex-start;}
     
     .list{list-style: none;}
 
@@ -62,7 +102,9 @@ text-decoration: none;
     line-height: 1.5;
     letter-spacing: 0.02em;
     text-decoration:none;}
-    link .nav-link{list-style: none;}
+    link .nav-link{
+        list-style: none;
+        padding: 24px 0;}
     .nav-link:hover,
     .nav-link:focus{color: var(--ocean);}
 
@@ -73,14 +115,39 @@ text-decoration: none;
     .contact-link:hover,
     .contact-link:focus{color: var(--ocean);}
 
+    .section-one{background-color: var(--navyblue);
+        display: block;
+        padding: 188px 0;}
+
     .section-one-title{color: var(--white);
         background-color: var(--navyblue);
         text-align:center;
         font-size: 56px;
         font-weight: 700;
         line-height: 1.07;
-        letter-spacing: 0.02em;}
-    .section-one{background-color: var(--navyblue);}
+        letter-spacing: 0.02em;
+        max-width: 496px;
+        margin-bottom: 48px;}
+    
+    .button{
+        color: var(--white);
+        font-family: inherit;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 1.5;
+        letter-spacing: 0.04em;
+        background-color:var(--iris);
+        cursor: pointer;
+        display: block;
+        margin: 356px 635px 188px 636px;
+        border-radius: 4px;
+        min-width: 169px;
+        height: 56px;
+    border: none;}
+    .button:hover,
+    .button:focus{
+        background-color:var(--ocean);
+        border: 1px solid transparent;}           
 
     .section-three-title{color: var(--navyblue);
         text-align: center;
@@ -89,6 +156,7 @@ text-decoration: none;
         line-height: 1.11;
         letter-spacing: 0.02em;
         text-transform: capitalize;}
+        
 
     .section-four{background-color: var(--cloud);}
     .section-four-title{color: var(--navyblue);
@@ -98,17 +166,7 @@ text-decoration: none;
         line-height: 1.11;
         letter-spacing: 0.02em;
         text-transform: capitalize;}
-    .button{
-        color: var(--white);
-        font-family: inherit;
-        font-size: 16px;
-        font-weight: 500;
-        line-height: 1.5;
-        letter-spacing: 0.04em;
-        background-color:var(--iris);
-    cursor: pointer;}
-    .button:hover,
-    .button:focus{background-color:var(--ocean);}
+    
 
     .portfolio-button{color: var(--iris);
         text-align: center;
