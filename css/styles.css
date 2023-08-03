@@ -187,9 +187,7 @@ link .nav-link{list-style: none;
         margin-bottom: 120px;
         gap:24px;}
 
-.image-list-item{margin-right: 24px;
-    margin-bottom: 120px;
-    width: calc((100% - 48px) /3);}     
+.image-list-item{width: calc((100% - 48px) /3);}     
 
 .section-four{
     background-color: var(--cloud);
@@ -221,17 +219,15 @@ link .nav-link{list-style: none;
     .portfolio-section{padding-top: 96px;
         padding-bottom: 120px;}
 
-    .portfolio-section .list{
+.portfolio-section .list{
         display:flex;
         flex-wrap: wrap;
         gap: 24px;
         row-gap: 48px;
         justify-content: center;
-        padding-top: 96px;
-        padding-bottom: 120px;
-        }
+        margin-bottom: 72px;}
 
-    .portfolio-button{color: var(--iris);
+.portfolio-button{color: var(--iris);
         text-align: center;
         font-family: inherit;
         font-size: 16px;
@@ -246,13 +242,13 @@ link .nav-link{list-style: none;
         border: 1px solid var(--cornflower);    
     }
 
-    .portfolio-button:hover,
-    .portfolio-button:focus{
+.portfolio-button:hover,
+.portfolio-button:focus{
     background-color:var(--ocean);
     color: var(--white);
     border: 1px solid transparent;}
 
-    .portfolio-button:active{background-color: var(--ocean);
+.portfolio-button:active{background-color: var(--ocean);
         color: var(--white);}
 
 .list-title{color: var(--navyblue);
@@ -267,8 +263,6 @@ line-height: 1.5;
 letter-spacing: 0.02em;}
 
 .hero-list-item{background-color: var(--white);
-    margin-right: 24px;
-    margin-bottom: 120px;
     border-radius: 0px 0px 4px 4px;
     width: calc((100% - 72px) /4);
 }
