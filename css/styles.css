@@ -219,7 +219,7 @@ link .nav-link{list-style: none;
     .portfolio-section{padding-top: 96px;
         padding-bottom: 120px;}
 
-.list .button-list{
+.button-list{
         display:flex;
         gap: 24px;
         justify-content: center;
