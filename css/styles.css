@@ -87,7 +87,6 @@ link .logo-link{
     .nav .list{display: flex;
         gap: 40px;
         padding: 24px 0;
-        margin-right:
         align-items: flex-start;}
 
     .address .list{
@@ -163,9 +162,10 @@ link .logo-link{
     .section-two .list{
         display: flex;
         gap: 24px;
-    margin: 0 auto;
-margin-bottom: 120px;}
-    .list .list-item{width:calc((100%-72px)/4);}
+        margin: 0 auto;
+        margin-bottom: 120px;}
+    .list .list-item{width:264px;
+    margin: 0 auto;}
     .list .list-title{
         gap: 8px;
         margin-top: 120px;}
@@ -179,9 +179,10 @@ margin-bottom: 120px;}
         text-transform: capitalize;
         margin: 0 auto;
         margin-bottom: 72px;}
-    .section-three .list:{display: flex;
-    margin: 0 auto;
-    margin-bottom: 120px;}
+    .section-three .list{
+        display: flex;
+        margin: 0 auto;
+        margin-bottom: 120px;}
     .image-list-item{margin-right: 24px;
     margin-bottom: 120px;}
         
@@ -201,18 +202,22 @@ margin-bottom: 120px;}
         line-height: 1.11;
         letter-spacing: 0.02em;
         text-transform: capitalize;
-        margin-top: 0 auto;
         margin-bottom: 72px;}
 
-    .hero-list-item .image{
-        display: block;}
+    .hero-list-item .hero-name{
+        display: block;
+        gap: 32px;}
    
-       .hero-list-item  .list-text{text-align: center;
+    .hero-list-item  .list-text{text-align: center;
         padding-bottom: 32px;}
+
+    .hero-description{padding: 32px 0;}
 
     .portfolio-section .list{
         display:flex;
-        gap: 24px;
+        flex-wrap: wrap;
+        column-gap: 24px;
+        row-gap: 48px;
         justify-content: center;
         margin-top: 96px;
         margin-bottom: 72px;
@@ -256,7 +261,8 @@ letter-spacing: 0.02em;
     margin-right: 24px;
     margin-bottom: 120px;
     border-radius: 0px 0px 4px 4px;
-    width: calc((100%-72px)/4);}
+    width: calc((100% - 72px) /4);
+}
 
 .hero-name{color: var(--navyblue);
     text-align: center;
@@ -264,7 +270,7 @@ letter-spacing: 0.02em;
     font-weight: 500;
     line-height: 1.2;
     letter-spacing:0.02em;
-    gap: 8px;}
+    margin-bottom: 8px;}
 
 ul{list-style-type: none;}
 .image-list{list-style: none;}
@@ -275,25 +281,36 @@ ul{list-style-type: none;}
     font-size: 20px;
     font-weight: 500;
     line-height: 1.2;
-    letter-spacing: 0.02em;}
+    letter-spacing: 0.02em;
+margin-bottom: 8px;}
+
 .portfolio-list-item{color: var(--navyblue);
     font-size: 20px;
     font-weight: 500;
     line-height: 1.20;
-    letter-spacing: 0.02em;}
+    letter-spacing: 0.02em;
+display:flex;
+gap: 24px;
+width: calc((100% - 48px) /3);
+margin: 0 auto;
+margin-bottom: 48px;}
+
 .portfolio-list-item-text{color: var(--slate);
     font-size: 16px;
     font-weight: 400;
     line-height: 1.5;
     letter-spacing: 0.02em;}
 
+.portfolio-container{
+    border: 1px solid var(--cornflower);
+    padding: 32px 16px;}
+
 footer{background-color: var(--navyblue);
 height: 312px;
 display: flex;}
 
+
 .footer .logo-accent{color: var(--cloud);
-margin-bottom: 17.5px;
-margin-top: 100px;
 padding: 0;}
 
 .footer-text{color: var(--cloud,);
