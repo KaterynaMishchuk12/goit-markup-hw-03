@@ -92,7 +92,6 @@ link .logo-link{
         display: flex;
         gap: 40px;
         padding: 24px 0;
-        margin-right: 156px;
         align-items: flex-start;}
     
 .list{list-style: none;
@@ -219,10 +218,10 @@ link .nav-link{list-style: none;
     .portfolio-section{padding-top: 96px;
         padding-bottom: 120px;}
 
-.portfolio-section .button-list{
-        display:flex;
+.button-list{display:flex;
         gap: 24px;
         justify-content: center;
+        margin-top: 96px;
         margin-bottom: 72px;}
 
 .portfolio-section .list{
